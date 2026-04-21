@@ -42,8 +42,12 @@ body {
     justify-content: center;
 }
 
-.container {
+.container  {
     width: 400px;
+    text-align: center;
+}
+.container_wide{
+    width: 700px;
     text-align: center;
 }
 
