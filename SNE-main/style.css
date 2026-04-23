@@ -1,0 +1,276 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #2563EB;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.nav-links a i {
+    margin-right: 6px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* SPACE BELOW NAVBAR */
+.main {
+    margin-top: 40px;   /* 👈 space below navbar */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #e6f0fb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.icon-circle i {
+    font-size: 28px;
+    color: #4A90E2;
+}
+
+h1 {
+    margin: 0;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    text-align: left;
+    line-height: 1.5;
+}
+.section h3{
+    margin-bottom:8px;
+    color:#2563EB;
+}
+
+label {
+    font-weight: 500;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0f172a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e293b;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.demo {
+    background-color: #eaf3ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+}
+.features{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    padding:50px 20px;
+    border-top:1px solid #ddd;
+}
+
+.feature{
+    width: 30%;
+}
+
+.icon{
+    font-size: 30px;
+    background-color: #e8f0fe;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+/* FOOTER */
+.footer {
+    background-color: #e5e7eb;  /* soft gray */
+    margin-top: 60px;
+    padding: 40px 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #666;
+}
+/* GREEN ICON VERSION */
+.icon-circle.green {
+    width: 70px;
+    height: 70px;
+    background-color: #d1fae5;   /* light green */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.icon-circle.green i {
+    font-size: 28px;
+    color: #16a34a;   /* green icon */
+}
+
+/* Softer Card */
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;   /* light border instead of heavy shadow */
+}
+
+/* Input styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background-color: #f3f4f6;
+}
+
+/* Small helper text */
+.helper-text {
+    font-size: 13px;
+    color: #6b7280;
+    margin-bottom: 15px;
+}
+
+/* Password field wrapper for eye icon */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+    cursor: pointer;
+}
+
+/* Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0f172a;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e293b;
+}
