@@ -9,7 +9,9 @@
 <body>
 
     <!-- NAVBAR -->
-    <div id="navbar"></div>
+    <?php
+        include("navBar.html");
+    ?>
 
     <!-- CONTENT -->
     <div class="main">
@@ -38,7 +40,7 @@
 
                 <div class="signup">
                     Don't have an account?
-                    <a href="sign-up.html">Sign up for free</a>
+                    <a href="index.html">Sign up for free</a>
                 </div>
             </div>
 
@@ -50,37 +52,10 @@
 
         </div>
     </div>
-    <script src="../assets/JS/navBar.js"></script>
 </body>
 
 <!-- FOOTER -->
-<div class="footer">
-    <div class="footer-container">
-
-        <div class="footer-section">
-            <h3>SNE</h3>
-            <p>Supporting Special Needs Education through accessible learning solutions.</p>
-        </div>
-
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <a href="home.html">Home</a>
-            <a href="accessability.html">Accessibility</a>
-            <a href="sign-up.html">Sign Up</a>
-            <a href="about-us.html">About</a>
-        </div>
-
-        <div class="footer-section">
-            <h3>Contact</h3>
-            <p>Email: support@sne.com</p>
-            <p>Phone: +20 123 456 789</p>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        © 2026 SNE. All rights reserved.
-    </div>
-</div>
-
+    <?php
+        include("footer.html");
+    ?>
 </html>

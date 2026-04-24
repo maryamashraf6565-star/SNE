@@ -3,33 +3,15 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    <div class="navbar">
-        <div class="logo">SNE</div>
-
-        <div class="nav-links">
-            <a href="home.html">
-                <i class="fas fa-home"></i> Home
-            </a>
-            <a href="accessability.html">
-                <i class="fas fa-universal-access"></i> Accessibility
-            </a>
-            <a href="sign-up.html">
-                <i class="fas fa-user-plus"></i> Sign up
-            </a>
-            <a href="sign-in.html.html">
-                <i class="fas fa-sign-in-alt"></i> Sign in
-            </a>
-            <a href="about-us.html">
-                <i class="fas fa-info-circle"></i> About
-            </a>
-        </div>
-    </div>
+    <?php
+        include("navBar.html");
+    ?>
 <!-- CONTENT -->
     <div class="main">
     <div class="container">
@@ -113,35 +95,9 @@
 
 </div>
     <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-container">
-
-            <div class="footer-section">
-                <h4>SNE</h4>
-                <p>Supporting Special Needs Education through accessible learning tools.</p>
-            </div>
-
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <a href="accessability.html">Accessibility</a>
-                <a href="sign-up.html">Sign up</a>
-                <a href="sign-in.html.html">Sign in</a>
-                <a href="about-us.html">About</a>
-            </div>
-
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email: support@sne.com</p>
-                <p>Phone: +20 123 456 7890</p>
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            © 2026 SNE. All rights reserved.
-        </div>
-    </footer>
-
+    <?php
+        include("footer.html");
+    ?>
 </body>
 </html>
         
