@@ -1,0 +1,122 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <iframe src="navBar.html" style="width: 100%; border: none; height: 70px;"></iframe>
+
+<div class="main">
+    <div class="container">
+
+        <div class="icon-circle green">
+            <i class="fas fa-user-plus"></i>
+        </div>
+
+        <h1>Create Your Account</h1>
+        <p class="subtitle">Start your accessible learning journey today</p>
+
+        <div class="card">
+            <h3>Sign Up</h3>
+            <p style="color:#6b7280; font-size:14px;">
+                Create a free account to access all courses
+            </p>
+            <form method="post" action="sign_up.php">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Jane Doe">
+                <div class="helper-text">
+                    Your name as you'd like it to appear
+                </div>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="your.email@example.com">
+                <div class="helper-text">
+                    We'll never share your email with anyone
+                </div>
+
+                <label for="pw">Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="pw" placeholder="Create a strong password">
+                    <i class="fas fa-eye"></i>
+                </div>
+
+                <label for="confirm-pw">Confirm Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="confirm-pw" placeholder="Confirm your password">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                <div class="helper-text">
+                    Used to personalise your learning experience
+                </div>
+    
+                <label>Gender</label>
+                <div class="gender-group" role="radiogroup" aria-label="Gender">
+                    <div class="gender-option">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" id="prefer-not" name="gender" value="prefer_not">
+                        <label for="prefer-not">Prefer not to say</label>
+                    </div>
+                </div>
+ 
+                <label for="street">Street Address</label>
+                <input type="text" id="street" name="street" placeholder="123 Main Street, Apt 4B" required>
+    
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Cairo" required>
+                    </div>
+                    <div>
+                        <label for="state">State / Province</label>
+                        <input type="text" id="state" name="state" placeholder="Giza">
+                    </div>
+                    <div>
+                        <label for="postal">Postal Code</label>
+                        <input type="text" id="postal" name="postal" placeholder="12345" required>
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" placeholder="Egypt" required>
+                    </div>
+                </div>
+            </form>
+            
+            <input type="submit" value="Create Account">
+
+            <div class="signup">
+                Already have an account?
+                <a href="sign-in.php">Sign in</a>
+            </div>
+            <div class="demo">
+                <strong>Demo Mode:</strong> This is a demonstration.
+                Create an account to try it out or sign in with any previously created test account.
+                Your data is stored locally in your browser.
+            </div>
+
+        </div>
+</div>
+    </div>
+
+    <!-- FOOTER iframe -->
+    <iframe src="footer.html" style="width: 100%; border: none; height: 285px;"></iframe>
+
+</body>
+</html>
